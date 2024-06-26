@@ -17,5 +17,17 @@ module.exports = {
     },
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
+    "gatsby-theme-portfolio-minimal",
+    {
+      resolve: "gatsby-theme-portfolio-minimal",
+      options: {
+        blogSettings: {
+          entityName: "Article",
+          path: "/blog",
+          usePathPrefixForArticles: false,
+        },
+      },
+    },
+    "gatsby-plugin-postcss",
   ],
 };
