@@ -15,6 +15,13 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `experience`,
+        path: `${__dirname}/experience`,
+      },
+    },
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
     "gatsby-theme-portfolio-minimal",
