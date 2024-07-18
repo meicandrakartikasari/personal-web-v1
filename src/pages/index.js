@@ -1,33 +1,13 @@
 // Step 1: Import React
 import * as React from "react";
 import Layout from "../components/layout";
+import { StaticImage } from "gatsby-plugin-image";
 import Seo from "../components/seo";
 import "../styles/global.css";
-import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 
 // Step 2: Define your component
 const IndexPage = () => {
   return (
-    // <Menu>
-    //   <MenuButton className="data-[active]:bg-blue-200">My account</MenuButton>
-    //   <MenuItems anchor="bottom">
-    //     <MenuItem>
-    //       <a className="block data-[focus]:bg-blue-100" href="/settings">
-    //         Settings
-    //       </a>
-    //     </MenuItem>
-    //     <MenuItem>
-    //       <a className="block data-[focus]:bg-blue-100" href="/support">
-    //         Support
-    //       </a>
-    //     </MenuItem>
-    //     <MenuItem>
-    //       <a className="block data-[focus]:bg-blue-100" href="/license">
-    //         License
-    //       </a>
-    //     </MenuItem>
-    //   </MenuItems>
-    // </Menu>
     <Layout pageTitle="Home Page">
       {/* <StaticImage
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
